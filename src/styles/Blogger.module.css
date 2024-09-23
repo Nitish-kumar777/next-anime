@@ -1,0 +1,76 @@
+.container {
+  margin: 20px;
+  background-color: #181818;
+  padding: 20px;
+  border-radius: 8px;
+  color: #ffffff;
+}
+
+.searchInputWrapper {
+  position: relative;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.searchInput {
+  width: 100%;
+  padding: 12px 40px 12px 20px; /* Padding adjusted for icon */
+  border: none;
+  border-radius: 25px;
+  font-size: 1rem;
+  background-color: #2c2c2c;
+  color: #ffffff;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  outline: none;
+  transition: box-shadow 0.3s ease;
+}
+
+.searchInput:focus {
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3);
+}
+
+.searchInput::placeholder {
+  color: #aaaaaa;
+}
+
+.searchIcon {
+  position: absolute;
+  right: 15px;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 1.2rem;
+  color: #aaaaaa;
+  pointer-events: none; /* Icon won't interfere with input clicks */
+}
+
+.post {
+  margin-bottom: 20px;
+  padding: 15px;
+  border: 1px solid #444;
+  border-radius: 8px;
+  background-color: #252525;
+  opacity: 0; /* Initial opacity for GSAP animation */
+}
+
+.title {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+  color: #fff;
+}
+
+.image {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+.url {
+  color: #1e90ff;
+  text-decoration: none;
+}
+
+.url:hover {
+  text-decoration: underline;
+}

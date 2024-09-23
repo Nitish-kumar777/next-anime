@@ -1,0 +1,110 @@
+.container {
+  background-color: #111;
+  color: white;
+  padding: 40px 0;
+}
+
+.hero {
+  text-align: center;
+  background: url('/bg.jpg') center/cover no-repeat;
+  padding: 100px 20px;
+  margin-bottom: 40px;
+}
+
+.hero h1 {
+  font-size: 48px;
+  font-weight: bold;
+}
+
+.hero p {
+  font-size: 18px;
+  margin-top: 10px;
+}
+
+.formWrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.loginForm {
+  background-color: #222;
+  padding: 40px;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.title {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.inputWrapper {
+  position: relative;
+  margin-bottom: 15px;
+}
+
+.inputWrapper i {
+  position: absolute;
+  top: 50%;
+  left: 15px;
+  transform: translateY(-50%);
+  color: #999;
+}
+
+.input {
+  width: 100%;
+  padding: 15px 15px 15px 40px;
+  background-color: #333;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-size: 16px;
+}
+
+.submitBtn {
+  width: 100%;
+  padding: 15px;
+  background-color: #e50914;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-size: 18px;
+  cursor: pointer;
+  margin-bottom: 15px;
+}
+
+.forgotPassword {
+  color: #999;
+  text-align: right;
+  cursor: pointer;
+}
+
+.registerWrapper {
+  background-color: #222;
+  padding: 40px;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.registerTitle {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.registerBtn {
+  padding: 15px 30px;
+  background-color: #e50914;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-size: 18px;
+  cursor: pointer;
+}

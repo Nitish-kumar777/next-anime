@@ -1,0 +1,105 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #111;
+  padding: 40px;
+}
+
+.hero {
+  text-align: center;
+  color: white;
+  margin-bottom: 40px;
+  background: url("/bg.jpg") center/cover no-repeat;
+  padding: 100px 20px;
+  width: 100%;
+}
+
+.hero h1 {
+  font-size: 48px;
+  font-weight: bold;
+}
+
+.hero p {
+  font-size: 18px;
+  margin-top: 10px;
+}
+
+.formWrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  max-width: 1200px;
+  width: 100%;
+}
+
+.registerForm {
+  background-color: #222;
+  padding: 40px;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.title {
+  color: white;
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+.input {
+  width: 100%;
+  padding: 15px;
+  margin-bottom: 15px;
+  background-color: #333;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-size: 16px;
+}
+
+.submitBtn {
+  width: 100%;
+  padding: 15px;
+  background-color: #e50914;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.socialLogin {
+  background-color: #222;
+  padding: 40px;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  text-align: center;
+}
+
+.socialLogin h3 {
+  color: white;
+  margin-bottom: 20px;
+}
+
+.socialBtn {
+  width: 100%;
+  padding: 15px;
+  margin-bottom: 15px;
+  border-radius: 5px;
+  font-size: 18px;
+  color: white;
+  cursor: pointer;
+  border: none;
+}
+
+.facebook {
+  background-color: #3b5998;
+}
+
+.google {
+  background-color: #db4437;
+}
+
+.twitter {
+  background-color: #1da1f2;
+}
